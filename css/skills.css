@@ -1,0 +1,85 @@
+.skills-container{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2s-skills{
+    margin-bottom: 3%;
+}
+
+.h2s-skills h3{
+    display: flex;
+    justify-content: center;  
+    color: #e407638b;  
+}
+
+.cards{
+    padding-top: 30px;
+    display: grid;
+    justify-content: center;
+    gap: 90px;
+    grid-template-columns: repeat(4,1fr);
+    flex-wrap: wrap;
+}
+.card{
+    width: 190px;
+    height: 254px;
+    background: #ffffff39;
+    padding-top: 50px;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+
+    font-size: 2em;
+    color: #ffffff00;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 40px;
+    position: relative;
+    transition: all 0.7s ease-in-out;
+    overflow: hidden;
+    cursor: pointer;
+}
+.c-title{
+    z-index: 20;
+    font-size: 25px;
+}
+.card::before{
+    content: "";
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    background-color: #e43d83;
+    bottom: 0;
+    transform: translateY(70px);
+    border-radius: 100%;
+    transition: all 0.7s ease-in-out;
+}
+
+.card:hover::before{
+    transform: scale(7) translate(-20px);
+}
+
+.card:hover{
+    box-shadow: 10px -10px 60px 60px #bfff0066;
+    color: aliceblue;
+    border: 3px #ffffff4a solid;
+    transition: all 0.7s ease-in-out;
+    transform: scale(1.1);
+}
+
+.card i{
+    color: #e43d83;
+    font-size: 90px;
+    margin-bottom: 0px;
+}
+
+.card h3{
+    margin-top: 0;
+}

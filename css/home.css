@@ -1,0 +1,142 @@
+
+.home-container{
+    max-width: 1700px;
+    height: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.home-content{
+    position: relative;
+    max-width: 1400px;
+    width: 100%; 
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.img-home img{
+    margin-bottom: 5%;
+    height: 20em;
+    width: 20em;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 4px #a1d505d0 solid;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    filter: saturate(135%);
+
+  }
+
+  .img-home img:hover{
+    border: 5px #fff solid;
+    box-shadow: 0px 0px 20px 5px #c400414f;
+    transform: rotate(350deg);
+  }
+
+  .home-text h3{
+    color: rgba(255, 255, 255, 0.285);
+    font-size: 30px;
+}
+
+.home-text{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.typing{
+  width: 70%;
+}
+  .typing h1{
+    font-size: 60px;
+    color: transparent;
+    padding-top: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.typing h1::before{
+  content: "FRONTEND"; 
+  position:absolute ;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border-right: 4px solid #ffffff7e;
+  overflow: hidden;
+  color: #ffffff8c;
+  animation: load91371 4s linear infinite;
+}
+
+@keyframes load91371{
+  0%, 10%, 100%{
+    width: 0;
+  }
+  10%,20%,30%,40%,50%,60%,70%,80%,90%,100% {
+    border-right-color: transparent;
+  }
+  11%,21%,31%,41%,51%,61%,71%,81%,91% {
+    border-right-color: #ffffff;
+  }
+  60%, 70%, 80%{
+    width: 100%;
+  }
+}
+
+.home-text p{
+  font-size: 20px;
+  padding-top: 10px;
+  color: #23281f;
+}
+
+.btcv{
+  background: transparent;
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 30px;
+  display: inline-block;
+  width: 12em;
+  height: 2em;
+  line-height: 1.5em;
+  overflow: hidden;
+  border: 2px #c40041 solid;
+  transition: .5s color;
+  z-index: 1;
+  border-radius: 5px;
+  position: relative;
+}
+
+.btcv a{
+  color: #c40041;
+  text-decoration: none;
+
+}
+
+.btcv:hover a{
+  color: #fff;
+}
+
+.btcv::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  background-color: #c40041;
+  top: 0;
+  transform: skewX(45deg);
+  left: -40px;
+  z-index: -1;
+  transition: all 1s;
+}
+  
+.btcv:hover::before{
+  width: 160%;
+}

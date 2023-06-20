@@ -1,0 +1,30 @@
+.about-container{
+    padding: 5% 10% 5% 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container p{
+    font-size: 20px;
+    color: #23281f;
+}
+
+.about-container h2{
+    font-size: 100px;
+    padding-bottom: 0.5em;
+}
+
+.aboutimg img{
+    height: 600px;
+    cursor: pointer;
+    filter: drop-shadow(20px 0 9px #fff);
+    padding-right: 60px;
+    transform: translateX(0px);
+    animation: float 4s ease-out infinite;
+}
+
+.aboutimg img:hover{
+    filter: drop-shadow(0 20px 8px #bfff00c1);
+}    
+
