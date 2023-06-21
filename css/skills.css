@@ -1,13 +1,18 @@
 .skills-container{
-    height: 800px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 .h2s-skills{
     margin-bottom: 3%;
+}
+
+.h2s-skills h2{
+    font-size: 90px;
 }
 
 .h2s-skills h3{
@@ -20,13 +25,13 @@
     padding-top: 30px;
     display: grid;
     justify-content: center;
-    gap: 90px;
+    gap: 40px;
     grid-template-columns: repeat(4,1fr);
     flex-wrap: wrap;
 }
 .card{
-    width: 190px;
-    height: 254px;
+    width: 160px;
+    height: 230px;
     background: #ffffff39;
     padding-top: 50px;
     
@@ -48,7 +53,7 @@
 }
 .c-title{
     z-index: 20;
-    font-size: 25px;
+    font-size: 20px;
 }
 .card::before{
     content: "";
@@ -76,7 +81,7 @@
 
 .card i{
     color: #e43d83;
-    font-size: 90px;
+    font-size: 80px;
     margin-bottom: 0px;
 }
 

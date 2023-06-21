@@ -75,6 +75,7 @@ nav ul {
 
 nav ul li a{
     color: #ffffff;
+    font-size: 14px;
     font-weight: 900;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
@@ -103,8 +104,8 @@ nav ul li a:hover{
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 200px;
-    height: 200px;
+    width: 50px;
+    height: 150px;
     z-index: 990;
     margin: 30px;
   }
@@ -114,7 +115,7 @@ nav ul li a:hover{
 }
 
 .redes-sociais-overlay i{
-    font-size: 40px;
+    font-size: 30px;
     color: #ff0080;
     display: flex;
     justify-content: space-between;
@@ -124,7 +125,7 @@ nav ul li a:hover{
 .redes-sociais-overlay i:hover{
     color: rgba(255, 255, 255, 0.7);
     transform: rotate(45deg);
-    transition: .4s ease-in-out;
+    transition: .3s ease-in-out;
     filter: drop-shadow(2px 2px 2px #ff0077);
 }
 
@@ -141,7 +142,7 @@ nav ul li a:hover{
 	justify-content: center;
 }
 h2{
-	font-size: 120px;  
+	font-size: 90px;  
 	font-weight: 900;
     color: rgba(255, 255, 255, 0.392);
     filter: drop-shadow(4px 4px 8px #00000022);

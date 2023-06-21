@@ -1,5 +1,5 @@
 .contato-container{
-    height: 770px;
+    margin: 2% 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,8 +7,9 @@
 }
 
 .contato-container h2{
-    margin-top: 2%;
+    margin-top: 6%;
     padding-bottom: 2%;
+    font-size: 70px;
 }
 
 .form-header{
@@ -30,8 +31,8 @@
 }
 
 .form-button{
-    width: 13px;
-    height: 13px;
+    width: 10px;
+    height: 10px;
     display: inline-block;
     margin-right: 3px;
     border-radius: 8px;
@@ -66,8 +67,8 @@
 }
 
 .contato-container form{
-    width: 900px;
-    height: 400px;
+    width: 800px;
+    height: 350px;
     transform: translateX(0px);
     animation: float 4s ease-out infinite;
         
@@ -81,9 +82,9 @@
 }
 
 .fieldbox{
-    height: 350px;
+    height: 300px;
     width: 700px;
-    padding: 40px;
+    padding: 20px 40px;
     border: 4px solid #ed1c707b;
     position: absolute;
     top: 50%;
@@ -99,7 +100,7 @@ legend{
     padding: 10px;
     text-align: center;
     border-radius: 8px;
-    font-size: 20px;
+    font-size: 15px;
 
     font-weight: 900;
     color: rgb(255, 255, 255);
@@ -114,7 +115,7 @@ legend{
 .inputuser{
     letter-spacing: 2px;
     width: 100%;
-    font-size: 18px;
+    font-size: 14px;
     background: #ed1c7025;
     border: none;
     border-bottom: 2px #ed1c6f solid;
@@ -136,7 +137,6 @@ legend{
 }
 
 .submitbotao{
-
     border-radius: 20px;
     color: #ed1c6f;
     background: rgba(255, 255, 255, 0);
@@ -148,7 +148,7 @@ legend{
     border: 1px solid rgba(255, 255, 255, 0.574);
 
     width: 100%;
-    height: 35px;
+    height: 30px;
     text-transform: uppercase;
     cursor: pointer;
     font-weight: 600;

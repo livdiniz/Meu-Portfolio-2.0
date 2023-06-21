@@ -6,20 +6,25 @@
 }
 
 .about-container p{
-    font-size: 20px;
+    font-size: 17px;
     color: #23281f;
 }
 
 .about-container h2{
-    font-size: 100px;
+    font-size: 85px;
     padding-bottom: 0.5em;
 }
 
+.about-container .h2s{
+    width: 100%;
+}
+
 .aboutimg img{
-    height: 600px;
+    height: 470px;
     cursor: pointer;
     filter: drop-shadow(20px 0 9px #fff);
     padding-right: 60px;
+    padding-top: 30px;
     transform: translateX(0px);
     animation: float 4s ease-out infinite;
 }

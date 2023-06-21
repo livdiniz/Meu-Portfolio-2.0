@@ -1,5 +1,4 @@
 .cursos-container{
-    height: 1100px;
     margin-top: 0;
     display: flex;
     justify-content: center;
@@ -8,7 +7,7 @@
 }
 
 .cursos-container .h2s{
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .cursos-container h2{
@@ -44,16 +43,16 @@
 
 .cursos-box::before{
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    top: 35%;
+    width: 140px;
+    height: 140px;
+    top: 30%;
     right: 2%;
 }
 
 .cursos-box::after{
     content: "";
     position: absolute;
-    height: 90px;
+    height: 70px;
     top: 8%;
     right: 5%;
     border: 2px solid;
@@ -67,7 +66,7 @@
     transition: all ease .3s;
 
     width: 700px;
-    height: 240px;
+    height: 200px;
     padding: 20px;
     
     border-radius: 20px;
@@ -83,6 +82,34 @@
     border: 1px solid rgba(255, 255, 255, 0.454);
 }
 
+.cursos-box .boxescc:hover{
+    box-shadow: 0 0 20px 1px #ff226c;
+    border: 1px solid rgba(255, 255, 255, 0.454);
+}
+
+.boxescc .cursotitle{
+    color: #fff;
+}
+
+.cursos-box .boxescc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all ease .3s;
+
+    width: 270px;
+    height: 200px;
+    padding: 15px;
+    
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.226);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.574)
+}
+
+
 .cursos-box .boxes .cursotitle{
     font-size: 2rem;
     font-weight: 500;
@@ -90,23 +117,23 @@
     color: aliceblue;
 }
 
-.cursos-box .boxes strong{
+.cursos-box .boxes, .boxescc strong{
     display: block;
-    margin-bottom: .5rem;
+    margin-bottom: 20px;
     color: #ff226c93;
 
 }
 
 .cursos-box .boxes p{
     margin: 1%;
-    font-size: .9em;
+    font-size: 14px;
     font-weight: 300;
     letter-spacing: 0.1em;
     color: rgba(58, 57, 57, 0.739);
 }
 
-.cursos-box .boxes span{
+.cursos-box .boxes, .boxescc span{
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 600;
     color: #ff226ccf;
 }
